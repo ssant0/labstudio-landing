@@ -25,8 +25,8 @@ import CheckIcon from "../components/shared/CheckIcon.astro";
     <div class="hero-content">
       <div class="row justify-content-center">
         <div class="col-12 text-center" data-aos="fade-up">
-          <h1 class="display-2 fw-bold mb-1">
-            Has tu Negocio sea Visible y <span class="text-labs-gradient">Venda</span>
+          <h1 class="fw-bold mb-1 position-relative" style="z-index: 1;">
+            Has que tu Negocio sea Visible y <span class="text-labs-gradient">Venda</span>
           </h1>
 
           <p class="hero-sub-text text-body-secondary mb-6 text-gray-600">
@@ -553,6 +553,41 @@ import CheckIcon from "../components/shared/CheckIcon.astro";
       right: -12rem;
       bottom: 11rem;
     }
+
+    .hero-content h1 {
+      font-size: 3.8rem;
+    }
+
+    @media only screen and (max-width: 1095px) {
+      .hero-content h1 {
+        font-size: 3.6rem;
+      }
+    }
+
+    @media only screen and (max-width: 1040px) {
+      .hero-content h1 {
+        font-size: 3.5rem;
+      }
+    }
+
+    @media only screen and (max-width: 987px) {
+      .hero-content h1 {
+        font-size: 3.3rem;
+      }
+    }
+
+    @media only screen and (max-width: 959px) {
+      .hero-content h1 {
+        font-size: 3.1rem;
+      }
+    }
+
+    @media only screen and (max-width: 905px) {
+      .hero-content h1 {
+        font-size: 3rem;
+      }
+    }
+
 
     @media only screen and (max-width: 1295px) {
       .hsg-1 {
