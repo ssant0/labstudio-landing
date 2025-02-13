@@ -69,7 +69,9 @@ body {
   color: #6e45cc !important;
 }
 
-
+.purple-eyebrow-text {
+  color: #9554fd;
+}
 
 @media only screen and (max-width: 533px) {
   .benefit-container .check-icon {
