@@ -127,7 +127,7 @@ import CustomBtn from "../components/shared/CustomBtn.astro";
 			</div>
 		</section>
 
-		<section class="min-vh-100 d-flex align-items-center justify-content-center">
+		<section class="pt-6 pt-md-11 d-flex align-items-center justify-content-center">
 			<div class="container">
 				<div
 					class="row align-items-center justify-content-between flex-sm-column-reverse flex-column-reverse flex-md-row pb-8 pb-md-11">
@@ -196,7 +196,7 @@ import CustomBtn from "../components/shared/CustomBtn.astro";
 			</div>
 		</section>
 
-		<section class="pt-8 pt-md-11" id="web-design-scroll">
+		<section class="pt-6 pt-md-11" id="web-design-scroll">
 			<div class="container pb-8">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-7 col-lg-6">
@@ -253,7 +253,7 @@ import CustomBtn from "../components/shared/CustomBtn.astro";
 			</div>
 		</section>
 
-		<section class="pb-2 pt-10 d-flex align-items-center flex-column w-100">
+		<section class="pt-6 pt-md-11 pb-2 d-flex align-items-center flex-column w-100">
 			<div class="container">
 				<h2 class="display-4 text-center fw-bold">Mas Soluciones Digitales</h2>
 				<div class="col-12 pt-6 d-flex justify-content-center gap-6 flex-wrap" data-aos="fade-up">
@@ -298,7 +298,7 @@ import CustomBtn from "../components/shared/CustomBtn.astro";
 				<h2 class="brands-h2 fw-bold text-center mb-2">Nuestros clientes</h2>
 				<p class="text-muted text-center pb-1">Estamos orgullosos de trabajar con algunas de las mejores empresas de la
 					industria</p>
-				<div class="d-flex flex-wrap gap-2 align-items-center justify-content-center">
+				<div class="d-flex flex-wrap gap-3 align-items-center justify-content-center">
 
 					<ClientCard imageSrc={AlferLogo} delay={0} width={ 1347 } height={ 403 }/>
 					<ClientCard imageSrc={ValleyLogo} delay={50} width={ 500 } height={ 500 }/>
@@ -774,15 +774,13 @@ import CustomBtn from "../components/shared/CustomBtn.astro";
 		}
 
 		.img-introduction {
-			width: 250px;
+			width: 220px;
+		}
+		h1 {
+			font-size: 1.7rem;
 		}
 	}
 
-	@media only screen and (max-width: 493px) {
-		h1 {
-			font-size: 1.8rem;
-		}
-	}
 
 	@media only screen and (max-width: 448px) {
 		.intro-btn-container {
@@ -791,6 +789,12 @@ import CustomBtn from "../components/shared/CustomBtn.astro";
 
 		.intro-btn-container a {
 			width: 90%;
+		}
+	}
+
+	@media (max-width: 426px) {
+		.img-introduction {
+			width: 200px;
 		}
 	}
 
